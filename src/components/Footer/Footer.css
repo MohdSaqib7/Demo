@@ -1,0 +1,35 @@
+.footer {
+    padding: 100px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(9, 18, 61, 0.87);
+    gap:50px;
+}
+.footer-head {
+    color:rgb(9, 24, 231);
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.footer-head:hover {
+    color: white;
+}
+.menu {
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.menu h2 {
+    font-weight: 300;
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu h2:hover {
+    color: rgb(32, 132, 247);
+}
+.footerCard {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
